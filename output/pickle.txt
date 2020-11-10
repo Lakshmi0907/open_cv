@@ -1,0 +1,5 @@
+import pickle
+filename = 'pickle1'
+outfile = open(filename,'wb')
+pickle.dump(pickle1,outfile)
+outfile.close()
